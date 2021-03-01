@@ -8,17 +8,46 @@
   background-color: #253141;
 }
 
-.side-header{
+.side-header {
   height: 100px;
+  background-color: #253141;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-name a{
+  color: #FAFAFA;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.side-button a{
+  color: deepskyblue;
+  font-size: 10px;
+  padding: 14px;
+  border: 1px solid lightblue;
+  text-decoration: none;
 }
 
 .side-main{
   height: calc(100vh - 100px);
   background-color: #2F3E51;
   padding: 0 20px;
+  color: white;
+  overflow: scroll;
 }
 
+.chat-room{
+  padding: 20px 0 40px;
+}
+
+.chat-name a{
+  color:white;
+  padding: 20px 0 40px;
+  text-decoration: none;
+}
 
 
 .main {
