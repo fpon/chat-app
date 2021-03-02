@@ -117,14 +117,14 @@
   margin-bottom: 40px;
 }
 
-.main-footer{
+.form{
   height: 90px;
   background-color: #DDDDDD;
   padding: 20px 40px;
   display: flex;
 }
 
-.input{
+.form-input{
   background-color: white;
   display: flex;
   width: 100%;
@@ -137,7 +137,7 @@
   width: 100%;
 }
 
-.send{
+.form-submit{
   border: none;
   background-color: #38AEF0;
   color: white;
