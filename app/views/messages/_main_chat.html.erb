@@ -11,38 +11,8 @@
   </div>
 </div>
 
-<div class="main-chats">
-  <div class="main-chat">
-    <div class="upper-chat">
-      <div class="user-name">
-        Tom
-      </div>
-      <div class class="time">
-        2020/3/31(Wed) 12:43:30
-      </div>
-    </div>
-    <div class="lower-chat">
-        <div class="message">
-          おはよう
-        </div> 
-    </div>
-  </div>
- 
-  <div class="main-chat">
-     <div class="upper-chat">
-        <div class="user-name">
-          Tom
-        </div>
-        <div class class="time">
-          2020/3/31(Wed) 12:47:30
-        </div>
-     </div>
-     <div class="lower-chat">
-       <div class="message">
-         こんばんわ
-       </div>
-     </div>
-  </div>
+<div class="message">
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 <%= form_with model: [@room, @message], class: 'form', local: true do |f| %>
